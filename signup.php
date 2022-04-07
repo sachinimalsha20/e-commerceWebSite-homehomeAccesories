@@ -12,7 +12,7 @@ echo "<h4>".$pagename."</h4>";
 
 echo "<form action=signup_process.php method=post id='signupform'>";
     echo "<table>";
-
+    
         echo "<tr>";
             echo "<td>";
                 echo "<p>Firstname: </p>";
@@ -36,7 +36,7 @@ echo "<form action=signup_process.php method=post id='signupform'>";
                 echo "<p>Address: </p>";
             echo "</td>";
             echo "<td>";
-                echo "<input type=text name=p_adress size=5 maxlength=200>";
+                echo "<input type=text name=p_address size=5 maxlength=200>";
             echo "</td>";
         echo "</tr>";
 

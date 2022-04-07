@@ -13,7 +13,7 @@ $SQL="select prodId, prodName,prodPicNameSmall, prodDescriptionShort,prodPrice f
 $exeSQL=mysqli_query($conn, $SQL) or die (mysqli_error($conn));
 echo "<table style='border: 0px'>";
 //create an array of records (2 dimensional variable) called $arrayp.
-//populate it with the records retrieved by the SQL query previously executed. 
+//populate it with the records retrieved by the SQL query previously executed.
 //Iterate through the array i.e while the end of the array has not been reached, run through it
 while ($arrayp=mysqli_fetch_array($exeSQL))
 {
